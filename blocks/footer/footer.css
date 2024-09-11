@@ -18,3 +18,24 @@ footer .footer p {
     padding: 40px 32px 24px;
   }
 }
+
+footer ul{
+    list-style: none;
+    display: inline;
+    margin: 0 auto;
+    display: table;
+}
+ 
+footer ul li{
+    color: #C7CCD3;
+    display: inline;
+    padding: 0px 20px;
+}
+ 
+footer ul li a{
+    color: #C7CCD3!important;
+}
+
+footer .footer{
+    background:#0A223F;
+}
