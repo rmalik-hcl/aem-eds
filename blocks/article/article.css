@@ -11,12 +11,13 @@
   gap: 24px;
   align-items: center;
   border: 1px solid #dadada;
-  border-radius: 8px;
   background-color: var(--background-color);
-  padding: 20px;
   box-shadow: 0 4px 6px #0000001A;
   max-width: 1000px;
   margin: 0 auto;
+  padding:0;
+  border-radius:0;
+  width: 100%;
 }
 
 /* Class for image container */
@@ -54,12 +55,13 @@
 }
 
 .article .button-container .button {
-  padding: 12px 24px;
   background-color: #007bff;
   color: #fff;
   text-decoration: none;
   border-radius: 5px;
   transition: background-color 0.3s ease;
+  padding: 6px 20px;
+  background: #047DBA;
 }
 
 .article .button-container .button:hover {
@@ -72,16 +74,5 @@
  
 .article picture {
   float:left;  
-}
- 
-.article.block {
-  padding:0;
-  border-radius:0;
-  width: 100%;
-}
- 
-.article .button-container .button {
-  padding: 6px 20px;
-  background: #047DBA;
 }
 
