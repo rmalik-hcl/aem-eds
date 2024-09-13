@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(257px, 1fr));
+  grid-template-columns:  1fr 1fr;
   grid-gap: 24px;
 }
 
@@ -25,3 +25,11 @@
   aspect-ratio: 4 / 3;
   object-fit: cover;
 }
+.teaser .button-container a.button{
+  background-color: transparent;
+  color: black;
+  border: 1px solid #047DBA;
+  font-weight: normal;
+  font-size: 14px;
+}
+   

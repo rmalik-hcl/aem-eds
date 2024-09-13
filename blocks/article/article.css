@@ -39,7 +39,7 @@
 
 .article .class2 p {
   margin: 0;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.5;
 }
 
@@ -65,3 +65,23 @@
 .article .button-container .button:hover {
   background-color: #0056b3;
 }
+
+.article.block > div:first-of-type {
+  display:none;
+}
+ 
+.article picture {
+  float:left;  
+}
+ 
+.article.block {
+  padding:0;
+  border-radius:0;
+  width: 100%;
+}
+ 
+.article .button-container .button {
+  padding: 6px 20px;
+  background: #047DBA;
+}
+
